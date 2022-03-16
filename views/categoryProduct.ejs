@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+
+<body>
+    <h1>Products</h1>
+    <% products.forEach((product)=>{ %>
+        <div>
+            <div>
+                <h1>
+                    <%=product.name %>
+                </h1>
+                <h2>
+                    <%=product.description %>
+                        </h1>
+                        <h3>
+                            <%=product.price %> Rs
+                                </h1>
+            </div>
+        </div>
+        <% }) %>
+        <h1><a href="/categories">Categories</a></h1>
+</body>
+
+</html>
