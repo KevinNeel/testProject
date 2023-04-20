@@ -39,5 +39,5 @@ app.post("/", createProduct);
 app.delete("/delete/:id", deleteProduct);
 
 app.listen(8000, () => {
-  console.log("Server is running ");
+  console.log("Server is running at port:8000");
 });
